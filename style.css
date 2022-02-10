@@ -96,11 +96,17 @@ header {
     right: 30px;
     width: 40px;
     cursor: pointer;
+    display: none;
 }
 
 /* mobile device */
 
 @media only screen and (max-width: 850px){
+
+    .menu-btn{
+        display: block;
+    }
+    
   .navbar{
       padding: 0;
   }
@@ -117,10 +123,12 @@ header {
     height: 100vh;
     background-color: rgb(45, 90, 185);
     margin-top: -900px;
+    transition: all 0.5s ease;
   }
 
   .mobile-menu{
       margin-top: 0px;
+      border-bottom-right-radius: 40%;
   }
 
   .nav-links li{
