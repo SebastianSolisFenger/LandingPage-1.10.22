@@ -11,6 +11,32 @@
 }
 
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+ul{
+list-style: none;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+   margin: 0 30px;
+}
+
+
 a {
     text-decoration: none;
     }
