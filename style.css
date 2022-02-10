@@ -143,6 +143,7 @@ p{
     margin-top: 30px;
 }
 
+
 /* <!-- == EVENTS == --> */
 
             /* <!-- == explore == --> */
@@ -187,6 +188,47 @@ p{
 
             /* <!-- == explore == --> */
 
+         /* <!-- == TOURS == --> */
+         .tours .image-gallery {
+             display: flex;
+             flex-wrap: wrap;
+             width: 100%;
+             align-items: center;
+         }
+
+         .image-gallery img {
+             max-width: 300px;
+             margin: 10px;
+         }
+
+         .content-col{
+             width: 40%;
+             display: flex;
+         }
+
+         .content-col h1{
+             font-size: 7vmin;
+             color: rgb(45, 90, 185);
+         }
+
+         .content-col .line{
+             margin-left: -1px;
+         }
+        
+         .content-col p {
+             margin: 30px auto;
+             padding: 0;
+         }
+
+         .content-col .ctn {
+           align-self: flex-start;
+         }
+         
+         .img-col{
+             width: 60%;
+         }
+
+         /* <!-- == TOURS == --> */
 
 
 /* mobile device */
